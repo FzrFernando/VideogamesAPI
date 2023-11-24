@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+    <form id="videogamesForm" class="form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <small></small>
+        <label for="developer">Developer:</label>
+        <input type="text" name="developer" id="developer" required>
+        <small></small>
+        <label for="releaseDate">Release Date:</label>
+        <input type="date" id="releaseDate" name="releaseDate" required>
+        <small></small>
+        <button type="submit">Agregar Videojuego</button>
+    </form>
+
+    <h2>Lista de Videojuegos</h2>
+    <ul id="videogamesList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
